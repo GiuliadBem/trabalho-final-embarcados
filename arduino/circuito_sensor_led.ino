@@ -14,7 +14,7 @@ const int ledPin = D7;        // LED no D7
 int limiteLuminosidade = 500; // Valor padrão caso não consiga baixar o JSON
 
 // ----- url do backend (API Gateway) -----
-const char* GATEWAY_IP = "192.168.15.9"; // IP do seu Mac
+const char* GATEWAY_IP = "192.168.15.5"; // IP do seu Mac
 const int GATEWAY_PORT = 5001;
 String configUrl = String("http://") + GATEWAY_IP + ":" + String(GATEWAY_PORT) + "/controle/config";
 String logUrl    = String("http://") + GATEWAY_IP + ":" + String(GATEWAY_PORT) + "/logging/log";
